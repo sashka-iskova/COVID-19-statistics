@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <title>COVID-19</title>
+</head>
+<body>
+  <!-- Navigation container -->
+<nav class="navigation">
+    <div class="logo">
+      <span class="logo-name">COVID-19</span>
+      <span class="logo-name-stat" >statistics</span>
+    </div>
+    <div class="last-update">
+      <span>LAST UPDATE:</span>
+      <span class="update-date"></span>
+    </div>
+</nav>
+
+<!-- World statistics -->
+  <div class="world-title">
+    <span>WORLD STATISTICS</span>
+    <span>TOTAL NUMBER OF COVID-19 CASES WORLDWIDE</span>
+  </div>
+<div class="world-statistics">
+  <div class="titles"></div>
+  <div class="all-stats"></div>
+</div>
+
+<!-- search bar -->
+<div class="search-bar">
+  <div class="search-bar-span">
+    <span>REPORTED CASES WORLDWIDE</span>
+  </div>
+  <form>
+    <label id="input-label" for="input">Enter Country name</label>
+    <input id="filter-input" type="text" placeholder="search..." />
+  </form>
+</div>
+
+<!-- table with the API response data -->
+<div class="tbl-container">
+  <table id="mainContent">
+    <thead class="thead"> 
+      <tr class="headers"></tr>
+    </thead>
+    <tbody class="tbody">
+    </tbody>
+  </table>     
+</div>
+
+<!-- articles with the API response data -->
+<div class="latest-news">
+  <span>GET THE LATEST COVID-19 NEWS AROUND THE WORLD</span>
+</div>
+<div class="news">
+  
+  <!-- <div class="article">
+    <div class="article-img">
+      <img src="" alt="img">
+    </div>
+    <div class="article-titles">
+      <a  class="link-style" href="http://">
+IRISH PRISON SERVICE CANCEL IN PERSON VISITS TO INMATES IN ALL JAILS IN RESPONSE TO COVID-19</a>
+    </div>
+    <div class="article-description">
+      Family visits will be temporarily suspended from 10 January until 24 January, 2022.
+    </div>
+    <div class="published-at">
+      2022-01-07T21:10:00Z
+    </div>
+    <div class="source">
+
+    </div>
+  </div> -->
+
+
+</div>
+
+  
+
+ 
+    
+<script src="scripts/script.js"></script>
+</body>
+</html>
