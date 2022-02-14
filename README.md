@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+# COVID-19 statistics
 
-You can use the [editor on GitHub](https://github.com/sashka-iskova/COVID-19-statistics/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+COVID-19 statistics is an informational project. The main goal is to get the latest information about the pandemic. The project is divided into two sections. First part of the project uses the https://covid-19.dataflowkit.com/v1 API and retrieves the latest information about new, active, total cases also total recovered and the total amount of deaths around the world since the beginning of the pandemic, by country and total numbers worldwide.
+The second part of the project uses the https://gnews.io/api/v4/search?q=example&token=API-Token API endpoint. In this section are shown 10 of the latest news from different news outlets around the world.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Visit the project at https://sashka-iskova.github.io/COVID19-statistics/
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
 
-```markdown
-Syntax highlighted code block
+- Fully responsive for mobile devices
+- Statistics and useful information about COVID19
+- Sleek and simple design
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Technologies used
 
-### Jekyll Themes
+Dillinger uses a number of open source projects to work properly:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sashka-iskova/COVID-19-statistics/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- HTML
+- CSS
+- JavaScript
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Tools
+- Visual Studio Code
+- NPM
+- Figma
