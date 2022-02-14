@@ -19,13 +19,12 @@ Visit the project at https://sashka-iskova.github.io/COVID19-statistics/
 
 ## Technologies used
 
-Dillinger uses a number of open source projects to work properly:
-
 - HTML
 - CSS
 - JavaScript
 
 ## Tools
+
 - Visual Studio Code
 - NPM
 - Figma
